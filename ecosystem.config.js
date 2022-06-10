@@ -21,7 +21,7 @@ module.exports = {
       ref: 'origin/main',
       repo: 'git@github-front:mdespeuilles/juridique.lestricolores.fr.git',
       path: '/home/ubuntu/www/juridique.lestricolores.fr',
-      'post-deploy': 'npm install && npm run build && /home/ubuntu/.npm-global/bin/pm2 reload ecosystem.config.js --env production'
+      'post-deploy': '/home/ubuntu/.npm-global/bin/yarn install && /home/ubuntu/.npm-global/bin/yarn build && /home/ubuntu/.npm-global/bin/pm2 reload ecosystem.config.js --env production'
     }
   }
 }
