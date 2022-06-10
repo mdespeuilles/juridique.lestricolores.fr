@@ -2,7 +2,7 @@
   <header>
     <div class="logo">
       <nuxt-link to="/">
-        <img src="/img/legalzen-logo.svg" alt="legalzen" loading="lazy" width="150" height="31"/>
+        <img src="/img/Les tricolores-logo.svg" alt="Les tricolores" loading="lazy" width="150" height="31"/>
       </nuxt-link>
     </div>
     <nav :class="{open: openMenu}">

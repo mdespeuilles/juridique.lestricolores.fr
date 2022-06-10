@@ -29,7 +29,7 @@
             Votre dossier est en cours de traitement par le Greffe
           </div>
 
-          <a :href="`https://api.legalzen.fr/api/submissions-pdf-uuid/${submission.uuid}?doc=statuts`"
+          <a :href="`https://api.juridique.lestricolores.fr/api/submissions-pdf-uuid/${submission.uuid}?doc=statuts`"
              class="btn" v-if="submission.status === 'En cours d\'immatriculation'">
             Télécharger mes statuts
           </a>

@@ -10,7 +10,7 @@
         <source :srcset="getImageUrl(page.attributes.image, 335, 313)"
                 width="335" height="313"
                 media="(max-width: 680px)">
-        <img :src="getImageUrl(page.attributes.image, 650, 608)" width="650" height="608" alt="legalzen" />
+        <img :src="getImageUrl(page.attributes.image, 650, 608)" width="650" height="608" alt="Les tricolores" />
       </picture>
     </div>
   </section>

@@ -60,7 +60,7 @@ export default {
       Object.keys(this.additionalData).forEach(p => {
         formData.append(p, this.additionalData[p])
       })
-      const url = `https://api.legalzen.fr/api/submissions-upload-file`;
+      const url = `https://api.juridique.lestricolores.fr/api/submissions-upload-file`;
       return this.$axios.post(url, formData)
         .then(x => x.data)
     },

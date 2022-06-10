@@ -20,7 +20,7 @@
     </p>
 
     <p>
-      LEGALZEN, 20 rue Royal, 75008 paris
+      Les tricolores, 15 Rue des Halles, 75001 paris
     </p>
 
     <p>

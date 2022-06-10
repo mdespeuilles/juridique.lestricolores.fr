@@ -15,7 +15,7 @@
       - Sollicitation de tous moyens de financement ;
     </p>
     <p>
-      -Paiement des frais de constitution auprès de la société LEGALZEN
+      -Paiement des frais de constitution auprès de la société Les tricolores
     </p>
     <br /><br />
     <p>

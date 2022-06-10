@@ -1,7 +1,7 @@
 <template>
   <section>
     <div>
-      <img src="/img/logo-white.svg" alt="legalzen" width="200" height="41">
+      <img src="/img/logo-white.svg" alt="Les tricolores" width="200" height="41">
     </div>
 
     <div class="bottom">

@@ -53,7 +53,7 @@
 
         <div>
           <h2>Informations légales</h2>
-          Legalzen
+          Les tricolores
           Siège social : 20 Rue Royale, 75008 Paris
           Siret : 904 493 418 000 19
         </div>
