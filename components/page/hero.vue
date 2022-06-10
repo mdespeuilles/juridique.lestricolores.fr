@@ -82,7 +82,7 @@ section {
         }
 
         ::v-deep strong {
-          color: #286FEB;
+          color: #f44336;
         }
       }
 
@@ -177,7 +177,7 @@ section {
           font-size: 32px;
           color: #FFF;
           line-height: 61px;
-          background-color: #286FEB;
+          background-color: #f44336;
           display: inline-block;
           padding: 0 30px;
         }

@@ -55,7 +55,7 @@ section {
         span {
           background: #E4F0FC;
           border-color: #E4F0FC;
-          color: #286FEB;
+          color: #f44336;
         }
 
         a {
@@ -67,7 +67,7 @@ section {
       &.done {
         span {
           border-color: #405986;
-          color: #286FEB;
+          color: #f44336;
         }
 
         a {

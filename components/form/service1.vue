@@ -105,7 +105,7 @@ export default {
 section {
   h2 {
     strong {
-      color: #286FEB;
+      color: #f44336;
     }
   }
 
@@ -116,7 +116,7 @@ section {
     margin-bottom: 50px;
 
     strong {
-      color: #286FEB;
+      color: #f44336;
     }
   }
 
@@ -137,7 +137,7 @@ section {
       top: 35px;
       height: 110px;
       width: 1px;
-      background: #286FEB;
+      background: #f44336;
       content: "";
     }
 
@@ -192,7 +192,7 @@ section {
 
         &.active {
           span {
-            color: #286FEB;
+            color: #f44336;
             font-weight: 700;
 
             &.info {
@@ -214,7 +214,7 @@ section {
       &.switch {
         width: 55px;
         height: 30px;
-        border: 1px solid #286FEB;
+        border: 1px solid #f44336;
         box-sizing: border-box;
         border-radius: 100px;
         position: relative;
@@ -227,7 +227,7 @@ section {
           top: 2px;
           left: 4px;
 
-          background: #286FEB;
+          background: #f44336;
           border-radius: 100px;
         }
       }

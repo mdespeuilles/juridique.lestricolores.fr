@@ -297,7 +297,7 @@ section {
               content: '';
               width: 18px;
               height: 18px;
-              background: #286FEB;
+              background: #f44336;
               border-radius: 50%;
             }
           }
@@ -305,7 +305,7 @@ section {
             width: 30px;
             height: 30px;
             background: #FFFFFF;
-            border: 1px solid #286FEB;
+            border: 1px solid #f44336;
             box-sizing: border-box;
             box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.15);
             display: block;

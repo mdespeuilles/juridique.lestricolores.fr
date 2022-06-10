@@ -308,7 +308,7 @@ section {
 
         &.active {
           background: #E4F0FC;
-          border: 1px solid #286FEB;
+          border: 1px solid #f44336;
           box-sizing: border-box;
           box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
           border-radius: 10px;
@@ -332,7 +332,7 @@ section {
           }
 
           strong {
-            color: #286FEB;
+            color: #f44336;
           }
         }
       }
@@ -358,7 +358,7 @@ section {
       button {
         background: #E4F0FC;
         font-size: 14px;
-        color: #286FEB;
+        color: #f44336;
         font-weight: 700;
         height: 48px;
       }
@@ -460,13 +460,13 @@ section {
       .offert {
         font-size: 14px;
         line-height: 20px;
-        color: #286FEB;
+        color: #f44336;
       }
 
       .amount {
         font-size: 14px;
         line-height: 20px;
-        color: #286FEB;
+        color: #f44336;
       }
     }
   }

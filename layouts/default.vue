@@ -55,7 +55,7 @@ body {
 button, a.btn {
   border: none;
   height: 40px;
-  background: #286FEB;
+  background: #f44336;
   border-radius: 20px;
   padding: 0 20px;
   font-weight: 500;
@@ -114,7 +114,7 @@ a.btn {
     a {
       font-size: 14px;
       text-align: center;
-      color: #286FEB;
+      color: #f44336;
       text-decoration: none;
     }
 
@@ -136,7 +136,7 @@ a.btn {
 
     &.blue {
       .vs__dropdown-toggle {
-        border: 1px solid #286FEB;
+        border: 1px solid #f44336;
       }
     }
 
@@ -178,7 +178,7 @@ a.btn {
 .file-upload.v-upload {
   .input-wrapper {
     height: 40px;
-    background: #286FEB;
+    background: #f44336;
     border-radius: 20px;
     padding: 0 20px;
     font-weight: 500;
@@ -188,7 +188,7 @@ a.btn {
     cursor: pointer;
 
     &:hover {
-      background: #286FEB;
+      background: #f44336;
     }
 
     .file-upload-label {

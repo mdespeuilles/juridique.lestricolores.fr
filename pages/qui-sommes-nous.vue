@@ -92,7 +92,7 @@ export default {
           }
 
           strong {
-            color: #286feb;
+            color: #f44336;
           }
         }
       }

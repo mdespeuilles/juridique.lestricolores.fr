@@ -116,7 +116,7 @@ section {
         height: 23px;
         box-shadow: 0 0 15px rgba(40, 111, 235, 0.3);
         border-radius: 20px;
-        background-color: #286feb;
+        background-color: #f44336;
         display: block;
         color: #ffffff;
         font-size: 10px;
@@ -136,7 +136,7 @@ section {
 
       &.selected {
         background: #E4F0FC;
-        border: 1px solid #286FEB;
+        border: 1px solid #f44336;
         box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
       }
     }

@@ -124,7 +124,7 @@ section {
     padding-bottom: 80px;
     .submission {
       background: #E4F0FC;
-      border: 1px solid #286FEB;
+      border: 1px solid #f44336;
       box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
       border-radius: 10px;
       margin-bottom: 30px;

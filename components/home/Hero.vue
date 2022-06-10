@@ -53,7 +53,7 @@ section {
         margin-bottom: 18px;
 
         strong {
-          color: #286feb;
+          color: #f44336;
         }
       }
     }

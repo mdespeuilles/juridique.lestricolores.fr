@@ -115,7 +115,7 @@ section {
         margin: auto;
         width: 4px;
         height: 32px;
-        background-color: #286FEB;
+        background-color: #f44336;
         box-shadow: 0px 0px 10px rgba(40, 111, 235, 0.6);
       }
     }

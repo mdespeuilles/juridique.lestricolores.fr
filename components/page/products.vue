@@ -101,9 +101,9 @@ section {
       }
 
       &.normal {
-        border-top: 11px solid #286feb;
+        border-top: 11px solid #f44336;
         .icon {
-          border: 2px solid #286feb;
+          border: 2px solid #f44336;
         }
       }
 
@@ -117,7 +117,7 @@ section {
       .icon {
         width: 120px;
         height: 120px;
-        border: 2px solid #286feb;
+        border: 2px solid #f44336;
         background-color: #ffffff;
         display: grid;
         place-items: center;

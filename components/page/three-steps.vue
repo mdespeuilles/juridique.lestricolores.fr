@@ -135,7 +135,7 @@ section {
               }
 
               strong {
-                color: #286feb;
+                color: #f44336;
               }
             }
           }

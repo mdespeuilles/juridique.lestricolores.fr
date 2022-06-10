@@ -120,7 +120,7 @@ export default {
 
 label {
   height: 40px;
-  background: #286FEB;
+  background: #f44336;
   border-radius: 20px;
   padding: 0 20px;
   font-weight: 500;
