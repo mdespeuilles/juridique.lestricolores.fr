@@ -1,0 +1,77 @@
+@mixin desk-1440 {
+  @media only screen and (max-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin desk-1280 {
+  @media only screen and (max-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin desk-1200 {
+  @media only screen and (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin desk-1040 {
+  @media only screen and (max-width: 1040px) {
+    @content;
+  }
+}
+
+@mixin desk-1024 {
+  @media only screen and (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin desk-1000 {
+  @media only screen and (max-width: 1000px) {
+    @content;
+  }
+}
+
+@mixin desk-900 {
+  @media only screen and (max-width: 900px) {
+    @content;
+  }
+}
+
+@mixin desk-768 {
+  @media only screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin desk-710 {
+  @media only screen and (max-width: 710px) {
+    @content;
+  }
+}
+
+@mixin phone-600 {
+  @media only screen and (max-width: 600px) {
+    @content;
+  }
+}
+
+@mixin phone-425 {
+  @media only screen and (max-width: 425px) {
+    @content;
+  }
+}
+
+@mixin phone-375 {
+  @media only screen and (max-width: 375px) {
+    @content;
+  }
+}
+
+@mixin phone-320 {
+  @media only screen and (max-width: 320px) {
+    @content;
+  }
+}
