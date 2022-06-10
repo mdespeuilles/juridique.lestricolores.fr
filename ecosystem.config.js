@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'www.legalzen.fr',
+      name: 'juridique.lestricolores.fr',
       exec_mode: 'cluster',
       instances: 'max', // Or a number of instances
       script: './node_modules/nuxt/bin/nuxt.js',
@@ -17,10 +17,10 @@ module.exports = {
     // "production" is the environment name (env_production)
     production: {
       user: 'ubuntu',
-      host: ['15.236.167.203'],
+      host: ['52.47.131.55'],
       ref: 'origin/main',
-      repo: 'git@github-front:mdespeuilles/legalzen.git',
-      path: '/home/ubuntu/www/www.legalzen.fr',
+      repo: 'git@github-front:mdespeuilles/juridique.lestricolores.fr.git',
+      path: '/home/ubuntu/www/juridique.lestricolores.fr',
       'post-deploy': 'npm install && npm run build && /home/ubuntu/.npm-global/bin/pm2 reload ecosystem.config.js --env production'
     }
   }
