@@ -2,11 +2,10 @@
   <section>
     <div class="right">
       <div class="social">
-        <span>SUIVEZ-NOUS</span>
-        <a href="https://www.linkedin.com/in/legal-zen/" target="_blank">
+        <a href="https://www.linkedin.com/in/les-tricolores-9a792517b/?originalSubdomain=fr" target="_blank">
           <img src="/img/linkedin.svg" alt="linkedin" title="linkedin" loading="lazy" width="20" height="20">
         </a>
-        <a href="https://twitter.com/legal__zen" target="_blank">
+        <a href="https://twitter.com/LesTricolores" target="_blank">
           <img src="/img/twitter.svg" alt="Twitter" title="Twitter" loading="lazy" width="23" height="18">
         </a>
       </div>
@@ -24,7 +23,7 @@
     </div>
     <div class="left">
       <!--<a href="#" class="link">Se connecter</a>-->
-      <a href="tel:+33176411499" class="phone"><span>🇫🇷</span><span>01 76 41 14 99</span></a>
+      <a href="tel:+33176411499" class="phone"><span>🇫🇷</span><span>01 85 85 69 47</span></a>
       <nuxt-link to="/login" class="btn" v-if="!$auth.loggedIn">Se connecter</nuxt-link>
       <nuxt-link to="/espace-client" class="btn" v-if="$auth.loggedIn">Mon espace</nuxt-link>
       <a href="#" class="btn logout" v-if="$auth.loggedIn" @click.prevent="logout">Se deconnecter</a>
@@ -44,7 +43,7 @@ export default {
 
 <style lang="scss" scoped>
 section {
-  background: #E4F0FC;
+  background: rgba(249,82,88, .11);
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -70,7 +69,7 @@ section {
       justify-content: space-between;
       align-items: center;
       height: 30px;
-      width: 256px;
+      width: 100px;
       padding-right: 20px;
       border-right: 1px solid rgba(64, 89, 134, 0.2);
 

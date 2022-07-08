@@ -14,12 +14,12 @@ import Footer from "../components/layout/Footer";
 export default {
   head: {
     script: [
-      { hid: 'tidio', src: "https://code.tidio.co/xeqxpheoxmj3or8abfwa1uhnawz8atyq.js", defer: true },
+      //{ hid: 'tidio', src: "https://code.tidio.co/xeqxpheoxmj3or8abfwa1uhnawz8atyq.js", defer: true },
     ],
   },
   components: {Footer, Header, TopHeader},
   mounted() {
-    setTimeout(() => {
+    /*setTimeout(() => {
       window.axeptioSettings = {
         clientId: "6229d344a3710ac01d40830b",
       };
@@ -29,7 +29,7 @@ export default {
         e.async = true; e.src = "//static.axept.io/sdk.js";
         t.parentNode.insertBefore(e, t);
       })(document, "script");
-    }, 1000)
+    }, 1000)*/
   }
 }
 </script>

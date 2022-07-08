@@ -1,16 +1,15 @@
 <template>
   <section>
     <div>
-      <img src="/img/logo-white.svg" alt="Les tricolores" width="200" height="41">
     </div>
 
     <div class="bottom">
       <div class="social">
         <span>SUIVEZ-NOUS</span>
-        <a href="https://www.linkedin.com/in/legal-zen/" target="_blank">
+        <a href="https://www.linkedin.com/in/les-tricolores-9a792517b/?originalSubdomain=fr" target="_blank">
           <img src="/img/linkedin-box.svg" alt="linkedin" title="linkedin" loading="lazy" height="20" width="20">
         </a>
-        <a href="https://twitter.com/legal__zen" target="_blank">
+        <a href="https://twitter.com/LesTricolores" target="_blank">
           <img src="/img/twitter-box.svg" alt="Twitter" title="Twitter" loading="lazy" width="23" height="18">
         </a>
       </div>
@@ -38,7 +37,7 @@ export default {
 <style lang="scss" scoped>
 section {
   min-height: 199px;
-  background: rgb(40,111,235) url(/img/footer.svg) no-repeat center top;
+  background: #f44336;
   padding-top: 50px;
   padding-bottom: 20px;
 
