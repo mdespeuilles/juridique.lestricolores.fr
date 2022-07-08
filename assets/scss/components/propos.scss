@@ -1,0 +1,64 @@
+.custom-container{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    @include desk-1280 {
+        max-width: 779px;
+      }
+      
+}
+.a-propos{
+    .heading {
+        display: grid;
+        place-items: center;
+       padding: 10px;
+        max-width: 750px;
+        margin: 0 auto;
+        text-align: center;
+        h1 {
+          font-family: Yeseva One;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 36px;
+          line-height: 50px;
+          text-align: center;
+          color: #0B2758;
+        }
+      
+      }
+      .grid {
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        @include desk-1000 {
+          grid-template-columns: 1fr;
+        }
+       
+      }
+      .item-propos{
+        display: flex;
+        @include phone-600 {
+          display: block;
+          text-align: center;
+        }
+        img {
+            box-shadow: 0 5px 15px -8px black;
+            border-radius: 10px;
+        }
+        .left{
+            flex: none;
+            
+        }
+        .right{
+            padding-left: 20px;
+        }
+        .name{
+            font-weight: bold;
+        }
+        .title{
+            font-size: 12px;
+        }
+      }
+}

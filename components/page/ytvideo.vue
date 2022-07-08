@@ -2,17 +2,17 @@
   <section>
     <div>
       <client-only>
-        <LazyYoutube maxWidth="800px" :src="component.youtube_url" ref="youtube"/>
+        <!-- <LazyYoutube maxWidth="800px" :src="component.youtube_url" ref="youtube"/> -->
       </client-only>
     </div>
   </section>
 </template>
 
 <script>
-import { LazyYoutube } from "vue-lazytube";
+// import { LazyYoutube } from "vue-lazytube";
 export default {
   components: {
-    LazyYoutube
+    // LazyYoutube
   },
   props: {
     component: null

@@ -21,6 +21,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/assets/scss/main.scss',
     '~/assets/scss/loading.min.css',
     '~/assets/scss/hamburgers.min.css',
   ],
@@ -30,6 +31,7 @@ export default {
     { src: '~/plugins/vue-select.js', mode: 'client' },
     { src: '~/plugins/vuejs-datepicker.js', mode: 'client' },
     { src: '~/plugins/vue-js-toggle-button.js', mode: 'client' },
+    { src: '~plugins/vue-lazytube.js' , mode: 'client'},
     { src: '~plugins/filters.js' },
     { src: '~plugins/image.js' }
   ],
