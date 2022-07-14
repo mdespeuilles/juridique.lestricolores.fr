@@ -1,35 +1,50 @@
 <template>
-  <section>
+  <div class="box-header">
+    <section>
     <div class="right">
-      <div class="social">
-        <span>SUIVEZ-NOUS</span>
-        <a href="https://www.linkedin.com/in/legal-zen/" target="_blank">
-          <img src="/img/linkedin.svg" alt="linkedin" title="linkedin" loading="lazy" width="20" height="20">
-        </a>
-        <a href="https://twitter.com/legal__zen" target="_blank">
-          <img src="/img/twitter.svg" alt="Twitter" title="Twitter" loading="lazy" width="23" height="18">
-        </a>
+      <div class="logo">
+       <a href="/" title="Les tricolores">
+       <img loading="lazy" src="/img/logo-in-red.svg" alt="Les Tricolores - Domiciliation en ligne" title="Les Tricolores - Domiciliation en ligne" class="desk" style="width: 19px; height: 31px;"> 
+        Les tricolores
+      </a>
+         
       </div>
 
       <div class="menu">
         <ul>
           <li>
-            <nuxt-link to="/contact">Contactez-nous</nuxt-link>
+            <nuxt-link to="/">ACCUEIL</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/blog">Blog</nuxt-link>
+            <nuxt-link to="/">CREATION ENTREPRISE</nuxt-link>
+          </li>
+           <li>
+            <nuxt-link to="/">MODIFICATION ENTREPRISE</nuxt-link>
+          </li>
+           <li>
+            <nuxt-link to="/">LIQUIDATION ENTREPRISE </nuxt-link>
+          </li>
+           <li>
+            <nuxt-link to="/">A PROPOS </nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/">BLOG</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/">CONTACT</nuxt-link>
+          </li>
+          <li>
+            <a class="phone" href="">01 85 85 69 47</a>
+          </li>
+          <li>
+                  <a href="#" class="btn btn-client">Espace client</a>
+
           </li>
         </ul>
       </div>
     </div>
-    <div class="left">
-      <!--<a href="#" class="link">Se connecter</a>-->
-      <a href="tel:+33176411499" class="phone"><span>🇫🇷</span><span>01 76 41 14 99</span></a>
-      <nuxt-link to="/login" class="btn" v-if="!$auth.loggedIn">Se connecter</nuxt-link>
-      <nuxt-link to="/espace-client" class="btn" v-if="$auth.loggedIn">Mon espace</nuxt-link>
-      <a href="#" class="btn logout" v-if="$auth.loggedIn" @click.prevent="logout">Se deconnecter</a>
-    </div>
   </section>
+  </div>
 </template>
 
 <script>
@@ -43,14 +58,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.box-header{
+ max-width: 100%;
+ width: 100%;
+}
 section {
-  background: #E4F0FC;
+  margin: 0 auto;
+  position: relative;
+  z-index: 4;
+  background: #364151;
   height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 50px;
-  padding-right: 50px;
 
   @include desk-1024 {
     position: fixed;
@@ -65,37 +85,20 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .social {
-      display: flex;
+    .logo { 
+      padding-left: 10px;
+      a{
+         height: 30px;
+      width: 168px;
+         display: flex;
       justify-content: space-between;
       align-items: center;
-      height: 30px;
-      width: 256px;
-      padding-right: 20px;
-      border-right: 1px solid rgba(64, 89, 134, 0.2);
-
-      @include desk-900 {
-        justify-content: flex-start;
-        width: auto;
+ font-weight: bold;
+       color:white;
+       text-transform: uppercase;
+       text-decoration: none;
       }
-
-      @include phone-600 {
-        display: none;
-      }
-
-      span {
-        font-weight: 700;
-        font-size: 14px;
-        letter-spacing: 2px;
-
-        @include desk-900 {
-          display: none;
-        }
-      }
-
-      a {
-        margin-right: 15px;
-      }
+       
     }
 
     .menu {
@@ -110,43 +113,35 @@ section {
         align-items: center;
         height: 30px;
         list-style-type: none;
-        font-size: 14px;
-        font-weight: 500;
+        font-size: 13px;
+        
 
         li {
-          margin-right: 30px;
+          flex: none;
           a {
-            color: #405986;
+            color: white;
             text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+          }
+          .phone{
+            font-size: 20px;
+          }
+           a.btn-client {
+            margin-left: 10px;
+            background-color: #f95258;
+            padding: 5px 15px;
+            display: inline-block;
+            color: white;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
           }
         }
       }
     }
   }
 
-  .left {
-    a.link {
-      font-size: 14px;
-      color: #405986;
-      text-decoration: none;
-      margin-right: 20px;
-    }
-
-    a.phone {
-      color: #405986;
-      text-decoration: none;
-      margin-right: 20px;
-
-      span:first-child {
-        margin-right: 10px;
-      }
-    }
-
-    a.logout {
-      margin-left: 10px;
-      background-color: #FFF;
-      color: #000;
-    }
-  }
+ 
 }
 </style>

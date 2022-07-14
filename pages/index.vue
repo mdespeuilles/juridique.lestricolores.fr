@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero :page="page"/>
+    <!-- <Hero :page="page"/> -->
     <master :components="page.attributes.components" />
   </div>
 </template>
