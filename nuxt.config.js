@@ -24,6 +24,7 @@ export default {
     '~/assets/scss/main.scss',
     '~/assets/scss/loading.min.css',
     '~/assets/scss/hamburgers.min.css',
+    'vue-slick-carousel/dist/vue-slick-carousel.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -33,7 +34,8 @@ export default {
     { src: '~/plugins/vue-js-toggle-button.js', mode: 'client' },
     { src: '~plugins/vue-lazytube.js' , mode: 'client'},
     { src: '~plugins/filters.js' },
-    { src: '~plugins/image.js' }
+    { src: '~plugins/image.js' },
+    { src: './plugins/vue-slick-carousel.js' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
