@@ -75,8 +75,9 @@
       ></video>
     </div>
     <div class="home-content">
-      <feedback />
-      <div v-for="(component, index ) in components" :key="index">
+      <feedback :reviews="reviews" />
+      <faq :faqs="faqs" />
+      <!-- <div v-for="(component, index ) in components" :key="index">
         <three-steps
           v-if="component.__component === 'content.steps'"
           :component="component"
@@ -96,7 +97,7 @@
           v-if="component.__component === 'content.video'"
           :component="component"
         />
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -107,11 +108,15 @@ import Products from "./products";
 import Faq from "./faq";
 import Ytvideo from "./ytvideo";
 import feedback from '../home/feedback.vue';
+import faq from '../home/faq.vue';
 export default {
   props: {
     components: null,
+    reviews: [],
+    faqs: [],
   },
-  components: { Ytvideo, Faq, Products, ThreeSteps, feedback },
+  components: { Ytvideo, Faq, Products, ThreeSteps, feedback, faq },
+   
 };
 </script>
 <style lang="scss" scoped>

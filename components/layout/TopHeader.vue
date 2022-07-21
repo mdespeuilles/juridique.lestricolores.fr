@@ -61,12 +61,12 @@ export default {
 .box-header{
  max-width: 100%;
  width: 100%;
+ display: flex;
 }
 section {
   margin: 0 auto;
   position: relative;
   z-index: 4;
-  background: #364151;
   height: 60px;
   display: flex;
   justify-content: space-between;

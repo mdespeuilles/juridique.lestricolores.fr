@@ -41,7 +41,7 @@ section {
   background: rgb(40,111,235) url(/img/footer.svg) no-repeat center top;
   padding-top: 50px;
   padding-bottom: 20px;
-
+  position: relative;
   > div {
     max-width: 1280px;
     margin: auto;

@@ -1,2 +1,25 @@
 
 @import './components/propos.scss';
+.feedback{
+    .slick-slide {
+        transform: scale(1);
+        transition: all .25s ease-out;
+        transform-origin: center;
+      }
+       
+      .slick-active:nth-child(2){
+              transform: scale(1);
+      }
+}
+.content-group {
+  color: #364697;
+  font-size: 16px;
+  line-height: 22px;
+  ul{
+    padding-left: 24px;
+  }
+  a {
+    color: #1976d2;
+    text-decoration: none;
+  }
+}

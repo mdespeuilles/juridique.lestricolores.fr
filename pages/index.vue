@@ -1,7 +1,6 @@
 <template>
-  <div>
-    <!-- <Hero :page="page"/> -->
-    <master :components="page.attributes.components" />
+  <div> 
+    <master :components="page.attributes.components" :reviews="reviews" :faqs="faqs"/>
   </div>
 </template>
 
@@ -12,6 +11,8 @@ const qs = require('qs');
 export default {
   components: {Master, Hero},
   async asyncData({ $axios, route, error }) {
+    let reviews = []
+    let faqs = []
     const query = qs.stringify({
       populate: {
         components: {
@@ -31,14 +32,27 @@ export default {
     let [page] = await Promise.all([
       $axios.get(`/api/home?${query}`),
     ])
+    try {
+    const getReviews = await $axios.get(`https://api.lestricolores.fr/reviews`)
+    reviews = getReviews.data.items;
+    } catch (error) {
+    }
 
-    //const page = await $axios.get(`/api/page-produits?${query}`)
+      try {
+    const getFAQ = await $axios.get(`https://api.lestricolores.fr/faqs/home`)
+    faqs = getFAQ.data;
+    } catch (error) {
+    }
+    
+
     if (page.data.data.length === 0) {
       error({ statusCode: 404, message: 'Page non trouvé' });
     }
 
     return {
-      page: page.data.data
+      page: page.data.data,
+      reviews,
+      faqs
     }
   },
 
